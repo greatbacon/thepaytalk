@@ -7,8 +7,9 @@
   people to anonymously answer a simple survey about their pay. Don't forget to
   take the survey yourself!</p>
 <p>Then go to &ltyour-generated-link&gt/result" to see the anonymous answers.</p>
-<%= form_tag("/survey/create", method: "post") do %>
+<%= form_tag("/survey", method: "post") do %>
   <%= label_tag(:name, "Name for Survey:") %>
   <%= text_field_tag(:name) %>
+  <%= hidden_field_tag(:survey_id, SecureRandom.uuid) %>
   <%= submit_tag("Generate") %>
 <% end %>
