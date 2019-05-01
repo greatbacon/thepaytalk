@@ -1,0 +1,1429 @@
+Started GET "/" for ::1 at 2019-04-30 19:53:46 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hreed/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hreed/.rvm/gems/ruby-2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 25ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/response" for ::1 at 2019-04-30 19:57:05 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/response"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/response/index" for ::1 at 2019-04-30 19:57:47 -0600
+Processing by ResponseController#index as HTML
+  Rendering response/index.html.erb within layouts/application
+  Rendered response/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 710ms (Views: 709.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 19:58:45 -0600
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2019-04-30 19:58:52 -0600
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2019-04-30 19:59:41 -0600
+  
+ArgumentError ('' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:5:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2019-04-30 19:59:54 -0600
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-30 20:01:13 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:01:22 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:10:20 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:15:34 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:15:54 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:16:35 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:16:47 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:22:18 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey" for ::1 at 2019-04-30 20:22:22 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/survey"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/survey" for ::1 at 2019-04-30 20:23:42 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/survey"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/survey" for ::1 at 2019-04-30 20:23:59 -0600
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:5:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started POST "/survey" for ::1 at 2019-04-30 20:24:11 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/survey"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/survey" for ::1 at 2019-04-30 20:24:49 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/survey"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/survey" for ::1 at 2019-04-30 20:25:03 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/survey"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-30 20:25:08 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:25:09 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:25:10 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 20:25:11 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ngt0kVZyt5IoaUomKrKrh9IKrOy4Jw9BQF2xrIKWParmpcydbJVONaB7/BnurddOeu0DBbURkLxMDj3ZgHj2EQ==", "name"=>"test", "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:25:11 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:25:41 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 20:25:43 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UahAs8A3OJ6dIleNMhr0BqPsblU6OVpTHC9AsJ+EfnOBBvi/+tDBORUw4bL2BYjPCwvBvDcPxa4QfMzFnWq1yA==", "name"=>"test", "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 20:25:43 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys/create" for ::1 at 2019-04-30 20:56:39 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/surveys/create"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-30 21:01:19 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:01:21 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2A2LQJDJzSiVpvnbufRn/euHmbXa0YPLFqNi5Kklu/MIozNMqi40jx20T+R96xs0Q2A2XNfnHDYa8O6Rq8twSA==", "name"=>"test", "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:01:21 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:01:32 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XDntMHKS/WnEpG/Y7Je03Ipj27JMKJZUdxCyteV3pv+Ml1U8SHUEzky22ecoiMgVIoR0W0EeCal7Qz7A55ltRA==", "name"=>"asdf", "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:01:32 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:03:26 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (189.2ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fcbcc918b98>:0x00007fcbca6c0d48>):
+    10: <%= form_tag("/survey/create", method: "post") do %>
+    11:   <%= label_tag(:name, "Name for Survey:") %>
+    12:   <%= text_field_tag(:name) %>
+    13:   <%= f.hidden_field :survey_id, :value => SecureRandom.uuid %>
+    14:   <%= submit_tag("Generate") %>
+    15: <% end %>
+  
+app/views/home/index.html.erb:13:in `block in _app_views_home_index_html_erb__2131071174079663687_70256625584820'
+app/views/home/index.html.erb:10:in `_app_views_home_index_html_erb__2131071174079663687_70256625584820'
+Started GET "/" for ::1 at 2019-04-30 21:06:17 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (235.8ms)
+Completed 500 Internal Server Error in 238ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fcbce0c1650>:0x00007fcbc8a2fd00>):
+    10: <%= form_tag("/survey/create", method: "post") do %>
+    11:   <%= label_tag(:name, "Name for Survey:") %>
+    12:   <%= text_field_tag(:name) %>
+    13:   <%= f.hidden_field :survey_id, :value => SecureRandom.uuid %>
+    14:   <%= submit_tag("Generate") %>
+    15: <% end %>
+  
+app/views/home/index.html.erb:13:in `block in _app_views_home_index_html_erb__2131071174079663687_70256655994580'
+app/views/home/index.html.erb:10:in `_app_views_home_index_html_erb__2131071174079663687_70256655994580'
+Started GET "/" for ::1 at 2019-04-30 21:06:24 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (187.7ms)
+Completed 500 Internal Server Error in 190ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fcbce0c1650>:0x00007fcbcca42690>):
+    10: <%= form_tag("/survey/create", method: "post") do %>
+    11:   <%= label_tag(:name, "Name for Survey:") %>
+    12:   <%= text_field_tag(:name) %>
+    13:   <%= f.hidden_field :survey_id, :value => SecureRandom.uuid %>
+    14:   <%= submit_tag("Generate") %>
+    15: <% end %>
+  
+app/views/home/index.html.erb:13:in `block in _app_views_home_index_html_erb__2131071174079663687_70256623177000'
+app/views/home/index.html.erb:10:in `_app_views_home_index_html_erb__2131071174079663687_70256623177000'
+Started GET "/" for ::1 at 2019-04-30 21:06:53 -0600
+  
+TypeError (no implicit conversion of Module into String):
+  
+app/controllers/home_controller.rb:2:in `<class:HomeController>'
+app/controllers/home_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2019-04-30 21:07:01 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (247.4ms)
+Completed 500 Internal Server Error in 250ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fcbc97d9e10>:0x00007fcbc97c94e8>):
+    10: <%= form_tag("/survey/create", method: "post") do %>
+    11:   <%= label_tag(:name, "Name for Survey:") %>
+    12:   <%= text_field_tag(:name) %>
+    13:   <%= f.hidden_field :survey_id, :value => SecureRandom.uuid %>
+    14:   <%= submit_tag("Generate") %>
+    15: <% end %>
+  
+app/views/home/index.html.erb:13:in `block in _app_views_home_index_html_erb__2131071174079663687_70256617773160'
+app/views/home/index.html.erb:10:in `_app_views_home_index_html_erb__2131071174079663687_70256617773160'
+Started GET "/" for ::1 at 2019-04-30 21:07:13 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:07:16 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cL8GllO9RsbOO6vg54G7iYdURzFHmdVLdDQCAcixVdmgEb6aaVq/YUYpHd8jnsdAL7Po2EqvSrZ4Z450yl+eYg==", "name"=>"test", "survey_id"=>{"{:value=>\"f277e058-42b6-48ec-97e3-49837de29875\"}"=>""}, "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:07:16 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:07:54 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yF6WjPI3Vn6IYNnabKDN1c4fc8aNh3/qRFGYDqV8Y90Y8C6AyNCv2QByb+Wov7EcZvjcL4Cx4BdIAhR7p5KoZg==", "name"=>"asdf", "survey_id"=>{"{:value=>\"e296c77c-b417-4db6-a028-2986bb748752\"}"=>""}, "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:07:54 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:08:22 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    10: <%= form_tag("/survey/create", method: "post") do %>
+    11:   <%= label_tag(:name, "Name for Survey:") %>
+    12:   <%= text_field_tag(:name) %>
+    13:   <%= hidden_field :survey_id => SecureRandom.uuid %>
+    14:   <%= submit_tag("Generate") %>
+    15: <% end %>
+  
+app/views/home/index.html.erb:13:in `block in _app_views_home_index_html_erb__2131071174079663687_70256623787600'
+app/views/home/index.html.erb:10:in `_app_views_home_index_html_erb__2131071174079663687_70256623787600'
+Started GET "/" for ::1 at 2019-04-30 21:08:35 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:08:37 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nXDfiqWHbmKxR+aH3/oNSBsYlRNDMl14+JSAtkP8BflN3meGn2CXxTlVULgb5XGBs/86+k4EwoX0xwzDQRLOQg==", "name"=>"asdf", "survey_id"=>{"{:value=>\"6bc57563-8bfa-48a6-8c63-86fc5ba80598\"}"=>""}, "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:08:37 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:08:53 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:08:55 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z65D/TUnYaNUd2QlflFr5kCzuJQE90iy2nC/iDphbkcfAPvxD8CYBNxl0hq6Thcv6FQXfQnB10/WIzP9OI+l/A==", "name"=>"asdf", "survey_id"=>{"{:value=>\"823a8812-1c22-4420-9d9b-5888d0d3e4c2\"}"=>""}, "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:08:55 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:09:05 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mdgom663KrUbhX1pikMgZ5ulXGiWbEZ6PjNfH0y1AgtJdpCXlFDTEpOXy1ZOXFyuM0LzgZta2YcyYNNqTlvJsA==", "name"=>"asdf", "survey_id"=>{"{:value=>\"3a2da523-6974-4ce4-a9cc-04def50c2979\"}"=>""}, "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:09:05 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:11:12 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:11:14 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ndiD3yIm8wVfjx/5vsydaw+FVqfT3payc7+Z367d2cpNdjvTGMEKotedqcZ60+Gip2L5Tt7oCU9/7BWqrDMScQ==", "name"=>"asdf", "survey_id"=>{"8c1cf607-2966-41f1-87f5-cae88400eea3"=>""}, "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:11:14 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:11:42 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:11:44 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PyBNPzUOL5z99m1YlTinAbEx9CYuukW/p2covjD9d5TvjvUzD+nWO3Xk22dRJ9vIGdZbzyOM2kKrNKTLMhO8Lw==", "name"=>"afasdfas", "survey_id"=>{"125e15fe-03aa-4329-9d84-90bad1dcd263"=>""}, "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:11:44 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:12:12 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:12:14 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7VERCkA6UZxIPO6rCFw+AtIaVTJzi58Q3SYOiSj+9Qg9/6kGet2oO8AuWJTMQ0LLev362369AO3RdYL8KhA+sw==", "name"=>"fack", "survey_id"=>{"{:value=>\"1021a83f-27ab-4874-b464-bc9fd3232f1a\"}"=>""}, "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:12:14 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:13:07 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `uuid' for nil:NilClass):
+    10: <%= form_tag("/survey/create", method: "post") do %>
+    11:   <%= label_tag(:name, "Name for Survey:") %>
+    12:   <%= text_field_tag(:name) %>
+    13:   <%= hidden_field(:survey_id, @SecureRandom.uuid) %>
+    14:   <%= submit_tag("Generate") %>
+    15: <% end %>
+  
+app/views/home/index.html.erb:13:in `block in _app_views_home_index_html_erb__2131071174079663687_70256657575960'
+app/views/home/index.html.erb:10:in `_app_views_home_index_html_erb__2131071174079663687_70256657575960'
+Started GET "/" for ::1 at 2019-04-30 21:13:17 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:13:20 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Mx6n03w5V4JTtEdFJm6kA1cpCtdzv13yKgKSGt/s6n/jsB/fRt6uJdum8XricdjK/86lPn6Jwg8mUR5v3QIhxA==", "name"=>"asdf", "survey_id"=>{"f992a8dc-161f-4092-9570-e5c1e842ca45"=>""}, "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:13:20 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:13:55 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/hreed/git/thepaytalk/app/views/home/index.html.erb:13: unknown type of %string
+...=( hidden_field(:survey_id, %SecureRandom.uuid) );@output_bu...
+...                            ^~~
+/Users/hreed/git/thepaytalk/app/views/home/index.html.erb:13: syntax error, unexpected end-of-input, expecting ')'
+...=( hidden_field(:survey_id, %SecureRandom.uuid) );@output_bu...
+...                            ^~~):
+  
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2019-04-30 21:14:40 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/hreed/git/thepaytalk/app/views/home/index.html.erb:13: unknown type of %string
+...=( hidden_field(:survey_id, %SecureRandom.uuid) );@output_bu...
+...                            ^~~
+/Users/hreed/git/thepaytalk/app/views/home/index.html.erb:13: syntax error, unexpected end-of-input, expecting ')'
+...=( hidden_field(:survey_id, %SecureRandom.uuid) );@output_bu...
+...                            ^~~):
+  
+app/views/home/index.html.erb:13: unknown type of %string
+app/views/home/index.html.erb:13: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2019-04-30 21:14:44 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:16:30 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 4, expected 2..3)):
+    10: <%= form_tag("/survey/create", method: "post") do %>
+    11:   <%= label_tag(:name, "Name for Survey:") %>
+    12:   <%= text_field_tag(:name) %>
+    13:   <%= hidden_field(:name, "survey_id",:value, SecureRandom.uuid) %>
+    14:   <%= submit_tag("Generate") %>
+    15: <% end %>
+  
+app/views/home/index.html.erb:13:in `block in _app_views_home_index_html_erb__2131071174079663687_70256626174300'
+app/views/home/index.html.erb:10:in `_app_views_home_index_html_erb__2131071174079663687_70256626174300'
+Started GET "/" for ::1 at 2019-04-30 21:17:22 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:17:25 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SGhkQCt1LYtgtamC03bbaC7AaFZk6p8n1ViP4ozNu7iYxtxMEZLULOinH70XaaehhifHv2ncANrZCwOXjiNwAw==", "name"=>"fack", "survey_id"=>"b77fd16f-402c-436b-a198-887a2f011067", "commit"=>"Generate"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:17:25 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateSurveys (20190501031927)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "surveys" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "uuid" varchar, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190501031927_create_surveys.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190501031927"]]
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-01 03:19:56.499147"], ["updated_at", "2019-05-01 03:19:56.499147"]]
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Started GET "/" for ::1 at 2019-04-30 21:21:22 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/hreed/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey/create" for ::1 at 2019-04-30 21:21:28 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6QkKQ6NHae933OkacsPXBDTxK1HnI+Z/rM01p0PyuCw5p7JPmaCQSP/OXyW23KvNnBaEuOoVeYKgnrnSQRxzlw==", "name"=>"survey1", "survey_id"=>"df902f95-87b6-4169-bd87-3a05cd66cd6e", "commit"=>"Generate"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/survey_controller.rb:6:in `create'
+Started POST "/survey/create" for ::1 at 2019-04-30 21:22:22 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6QkKQ6NHae933OkacsPXBDTxK1HnI+Z/rM01p0PyuCw5p7JPmaCQSP/OXyW23KvNnBaEuOoVeYKgnrnSQRxzlw==", "name"=>"survey1", "survey_id"=>"df902f95-87b6-4169-bd87-3a05cd66cd6e", "commit"=>"Generate"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/survey_controller.rb:7
+  [1m[36mSurvey Create (0.9ms)[0m  [1m[32mINSERT INTO "surveys" ("uuid", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uuid", "df902f95-87b6-4169-bd87-3a05cd66cd6e"], ["name", "survey1"], ["created_at", "2019-05-01 03:22:22.790068"], ["updated_at", "2019-05-01 03:22:22.790068"]]
+  ↳ app/controllers/survey_controller.rb:7
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/survey_controller.rb:7
+Redirected to 
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 2.7ms)
+
+
+  
+NoMethodError (undefined method `survey_url' for #<SurveyController:0x00007fcbc9c840f0>
+Did you mean?  survey_create_url):
+  
+app/controllers/survey_controller.rb:9:in `create'
+  [1m[36mSurvey Load (1.0ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/survey/create" for ::1 at 2019-04-30 21:33:11 -0600
+  
+NameError (undefined local variable or method `uuid' for #<ActionDispatch::Routing::Mapper:0x00007fcbccd89240>):
+  
+config/routes.rb:5:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2019-04-30 21:33:17 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-30 21:33:24 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-30 21:33:41 -0600
+  
+NameError (undefined local variable or method `uuid' for #<ActionDispatch::Routing::Mapper:0x00007fcbccf53468>):
+  
+config/routes.rb:7:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2019-04-30 21:33:56 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey" for ::1 at 2019-04-30 21:33:58 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gozx09LEgGj7eWBfOzuR/RZRFkIN9hn4HRFp3dXYcMNSIknf6CN5z3Nr1mD/JO00vra5qwDAhgURQuWo1za7eA==", "name"=>"test", "survey_id"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1", "commit"=>"Generate"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/survey_controller.rb:7
+  [1m[36mSurvey Create (0.4ms)[0m  [1m[32mINSERT INTO "surveys" ("uuid", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"], ["name", "test"], ["created_at", "2019-05-01 03:33:58.977277"], ["updated_at", "2019-05-01 03:33:58.977277"]]
+  ↳ app/controllers/survey_controller.rb:7
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/survey_controller.rb:7
+Redirected to http://localhost:3000/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1
+Completed 302 Found in 15ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:33:58 -0600
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for SurveyController):
+  
+actionpack (5.2.3) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[36mSurvey Load (0.4ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:35:11 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+  [1m[36mSurvey Load (0.1ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/survey_controller.rb:13
+Completed 404 Not Found in 4ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Survey with 'id'=c5e305ba-587d-4375-a1f2-e7e144efbdf1):
+  
+app/controllers/survey_controller.rb:13:in `show'
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:35:19 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+  [1m[36mSurvey Load (0.1ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/survey_controller.rb:13
+Completed 404 Not Found in 4ms (ActiveRecord: 0.5ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Survey with 'id'={:uuid=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}):
+  
+app/controllers/survey_controller.rb:13:in `show'
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:35:45 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+Completed 406 Not Acceptable in 24ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::UnknownFormat (SurveyController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:35:51 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `uuid' for #<SurveyController:0x00007fcbca6336a0>):
+  
+app/controllers/survey_controller.rb:13:in `show'
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:36:00 -0600
+  
+SyntaxError (/Users/hreed/git/thepaytalk/app/controllers/survey_controller.rb:13: syntax error, unexpected =>
+...@survey = Survey.where(uuid: => params[:uuid])
+...                             ^~
+/Users/hreed/git/thepaytalk/app/controllers/survey_controller.rb:13: syntax error, unexpected ')', expecting end
+...y.where(uuid: => params[:uuid])
+...                              ^):
+  
+app/controllers/survey_controller.rb:13: syntax error, unexpected =>
+app/controllers/survey_controller.rb:13: syntax error, unexpected ')', expecting end
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:36:37 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+Completed 406 Not Acceptable in 26ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionController::UnknownFormat (SurveyController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:37:22 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:38:15 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+  Rendering survey/show.html.erb within layouts/application
+  [1m[36mSurvey Load (0.2ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"], ["LIMIT", 11]]
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered survey/show.html.erb within layouts/application (18.3ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `uuid' for #<Survey::ActiveRecord_Relation:0x00007fcbce098d18>):
+    1: <h1>Survey#show</h1>
+    2: <p>Find me in app/views/survey/show.html.erb</p>
+    3: <p><%= @survey.uuid %></p>
+    4: <p><%= @survey.name %></p>
+  
+app/views/survey/show.html.erb:3:in `_app_views_survey_show_html_erb__3272634161364782814_70256625416100'
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:39:04 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+  Rendering survey/show.html.erb within layouts/application
+  [1m[36mSurvey Load (0.2ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"], ["LIMIT", 11]]
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered survey/show.html.erb within layouts/application (30.7ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `uuid' for #<Survey::ActiveRecord_Relation:0x00007fcbc9ec6548>):
+    1: <h1>Survey#show</h1>
+    2: <p>Find me in app/views/survey/show.html.erb</p>
+    3: <p><%= @survey.uuid %></p>
+    4: <p><%= @survey.name %></p>
+  
+app/views/survey/show.html.erb:3:in `_app_views_survey_show_html_erb__3272634161364782814_70256621412620'
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:39:59 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+  Rendering survey/show.html.erb within layouts/application
+  [1m[36mSurvey Load (0.1ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"], ["LIMIT", 11]]
+  ↳ /Users/hreed/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered survey/show.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `uuid' for #<Survey::ActiveRecord_Relation:0x00007fcbce1a7ba0>):
+    1: <h1>Survey#show</h1>
+    2: <p>Find me in app/views/survey/show.html.erb</p>
+    3: <p>
+    4:   <%= @survey.uuid %>
+    5: </p>
+    6: <p>
+    7:   <%= @survey.name %>
+  
+app/views/survey/show.html.erb:4:in `_app_views_survey_show_html_erb__3272634161364782814_70256656458240'
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:40:15 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:40:24 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+  Rendering survey/show.html.erb within layouts/application
+  [1m[36mSurvey Load (0.2ms)[0m  [1m[34mSELECT "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ?[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"]]
+  ↳ app/views/survey/show.html.erb:4
+  Rendered survey/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    1: <h1>Survey#show</h1>
+    2: <p>Find me in app/views/survey/show.html.erb</p>
+    3: <p>
+    4:   <%= @survey[:uuid] %>
+    5: </p>
+  
+app/views/survey/show.html.erb:4:in `_app_views_survey_show_html_erb__3272634161364782814_70256618873380'
+  [1m[36mSurvey Load (0.3ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"], ["LIMIT", 11]]
+  [1m[36mSurvey Load (0.2ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"], ["LIMIT", 11]]
+  [1m[36mSurvey Load (0.3ms)[0m  [1m[34mSELECT "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ?[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"]]
+  [1m[36mSurvey Load (0.2ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"], ["LIMIT", 1]]
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:44:42 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+  [1m[36mSurvey Load (0.2ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"], ["LIMIT", 1]]
+  ↳ app/controllers/survey_controller.rb:14
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 17.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/survey/c5e305ba-587d-4375-a1f2-e7e144efbdf1" for ::1 at 2019-04-30 21:46:04 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"c5e305ba-587d-4375-a1f2-e7e144efbdf1"}
+  [1m[36mSurvey Load (0.4ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "c5e305ba-587d-4375-a1f2-e7e144efbdf1"], ["LIMIT", 1]]
+  ↳ app/controllers/survey_controller.rb:13
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 17.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2019-04-30 21:46:22 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/survey" for ::1 at 2019-04-30 21:46:25 -0600
+Processing by SurveyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9K+iJ/NfMgKWDLG52vaH/pT5CHwXDmQEFAP0NiveQdIkARorybjLpR4eB4Ye6fs3PB6nlRo4+/kYUHhDKTCKaQ==", "name"=>"new survey", "survey_id"=>"ba8a3356-81f7-4a55-a147-f3d2506cf96f", "commit"=>"Generate"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/survey_controller.rb:7
+  [1m[36mSurvey Create (0.5ms)[0m  [1m[32mINSERT INTO "surveys" ("uuid", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["uuid", "ba8a3356-81f7-4a55-a147-f3d2506cf96f"], ["name", "new survey"], ["created_at", "2019-05-01 03:46:25.853873"], ["updated_at", "2019-05-01 03:46:25.853873"]]
+  ↳ app/controllers/survey_controller.rb:7
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/survey_controller.rb:7
+Redirected to http://localhost:3000/survey/ba8a3356-81f7-4a55-a147-f3d2506cf96f
+Completed 302 Found in 7ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/survey/ba8a3356-81f7-4a55-a147-f3d2506cf96f" for ::1 at 2019-04-30 21:46:25 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"ba8a3356-81f7-4a55-a147-f3d2506cf96f"}
+  [1m[36mSurvey Load (0.2ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "ba8a3356-81f7-4a55-a147-f3d2506cf96f"], ["LIMIT", 1]]
+  ↳ app/controllers/survey_controller.rb:13
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/survey/ba8a3356-81f7-4a55-a147-f3d2506cf96f" for ::1 at 2019-04-30 21:46:32 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"ba8a3356-81f7-4a55-a147-f3d2506cf96f"}
+  [1m[36mSurvey Load (0.1ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "ba8a3356-81f7-4a55-a147-f3d2506cf96f"], ["LIMIT", 1]]
+  ↳ app/controllers/survey_controller.rb:13
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/survey/ba8a3356-81f7-4a55-a147-f3d2506cf96f" for ::1 at 2019-04-30 21:46:36 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"ba8a3356-81f7-4a55-a147-f3d2506cf96f"}
+  [1m[36mSurvey Load (0.2ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "ba8a3356-81f7-4a55-a147-f3d2506cf96f"], ["LIMIT", 1]]
+  ↳ app/controllers/survey_controller.rb:13
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 11.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/survey/ba8a3356-81f7-4a55-a147-f3d2506cf96f" for ::1 at 2019-04-30 21:47:28 -0600
+Processing by SurveyController#show as HTML
+  Parameters: {"uuid"=>"ba8a3356-81f7-4a55-a147-f3d2506cf96f"}
+  [1m[36mSurvey Load (0.1ms)[0m  [1m[34mSELECT  "surveys".* FROM "surveys" WHERE "surveys"."uuid" = ? LIMIT ?[0m  [["uuid", "ba8a3356-81f7-4a55-a147-f3d2506cf96f"], ["LIMIT", 1]]
+  ↳ app/controllers/survey_controller.rb:13
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.1ms)
+
+

@@ -1,0 +1,14 @@
+<h1>Welcome to The Pay Talk</h1>
+<p>This website is a tool to help you facilitate conversations about pay in your work place.</p>
+<h2>Instructions</h2>
+<p>Enter a name for your survey group below and click generate.
+  This will create a unique url to share with those you want to have The Pay Talk with.</p>
+<p>Share this link with others, the link will point to a form that will allow
+  people to anonymously answer a simple survey about their pay. Don't forget to
+  take the survey yourself!</p>
+<p>Then go to &ltyour-generated-link&gt/result" to see the anonymous answers.</p>
+<%= form_tag("/survey/create", method: "post") do %>
+  <%= label_tag(:name, "Name for Survey:") %>
+  <%= text_field_tag(:name) %>
+  <%= submit_tag("Generate") %>
+<% end %>
