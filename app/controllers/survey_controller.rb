@@ -1,6 +1,5 @@
 class SurveyController < ApplicationController
   def create
-    print "we are creating survey"
     @survey = Survey.new(name: params[:name],uuid: params[:survey_id])
     @survey.save
 

@@ -1,10 +1,16 @@
 <h1>Survey: <%= @survey.name %></h1>
-<p>
-  Q1: What is your title?
-</p>
-<p>
-  Q2: What is your annual compensation?
-</p>
-<p>
-  Q3: How many years have you been in the industry?
-</p>
+<%= form_tag("/survey/#{@survey.uuid}/response", method: "post") do %>
+  <p>
+    <%= label_tag(:title, "Title?") %>
+    <%= text_field_tag(:title) %>
+  </p>
+  <p>
+    <%= label_tag(:compensation, "Annual Compensation?") %>
+    <%= number_field_tag(:compensation) %>
+  </p>
+  <p>
+    <%= label_tag(:experience, "Years in Industry?") %>
+    <%= number_field_tag(:experience) %>
+  </p>
+  <%= submit_tag("Submit") %>
+<% end %>
