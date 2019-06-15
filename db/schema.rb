@@ -12,11 +12,14 @@
 
 ActiveRecord::Schema.define(version: 2019_05_01_050432) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "responses", force: :cascade do |t|
     t.string "title"
     t.bigint "compensation"
     t.bigint "experience"
-    t.integer "survey_id"
+    t.bigint "survey_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["survey_id"], name: "index_responses_on_survey_id"
@@ -29,4 +32,5 @@ ActiveRecord::Schema.define(version: 2019_05_01_050432) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "responses", "surveys"
 end
